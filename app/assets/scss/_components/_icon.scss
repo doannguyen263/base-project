@@ -1,0 +1,102 @@
+[class^="icon-"], [class*=" icon-"] {
+    position: relative;
+    display: inline-block;
+    &:before{
+        content: '';
+        position: relative;
+        display: inline-block;
+        -webkit-mask-repeat: no-repeat;
+        -webkit-mask-position: center;
+        -webkit-mask-size: contain;
+        background-color: #fff;
+        transition: color .5s;
+    }
+    &.-white{
+        &:before{
+            background-color: #fff;
+        }
+    }
+}
+/*Icon*/
+.icon-top:before{
+    width:90px;height:90px;
+    background-image: url(../img/page_top.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: transparent;
+}
+
+.icon-phone:before{
+    width:16px;height:21px;
+    -webkit-mask-image:url(../img/icon-phone.png);
+    background-color: #3671a8;
+
+}
+.icon-phonev2:before{
+    width:22px;height:28px;
+    -webkit-mask-image:url(../img/icon-phonev2.png);
+    background-color: #3671a8;
+}
+
+.icon-line:before{
+    width:36px;height:34px;
+    -webkit-mask-image:url(../img/icon-line.png);
+    background-color: #3671a8;
+}
+
+.icon-twitter:before{
+    width:32px;height:32px;
+    -webkit-mask-image:url(../img/icon-twitter.png);
+    background-color: #3671a8;
+}
+
+.icon-instagram:before{
+    width:34px;height:28px;
+    -webkit-mask-image:url(../img/icon-instagram.png);
+    background-color: #3671a8;
+}
+.icon-angle-right:before{
+    width:10px;height:10px;
+    -webkit-mask-image:url(../img/icon-angle-right.png);
+    background-color: #3671a8;
+}
+
+.icon-calendar:before{
+    width:25px;height:24px;
+    -webkit-mask-image:url(../img/icon-calendar.png);
+    background-color: #fff;
+}
+.icon-clock:before{
+    width:28px;height:27px;
+    -webkit-mask-image:url(../img/icon-clock.png);
+    background-color: #fff;
+}
+
+
+
+[class^="iconbg-"], [class*=" iconbg-"] {
+    display: inline-block;
+}
+
+.iconbg-line-circle{
+    width:55px;height:55px;
+    background-image: url(../img/icon-line-circle.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.iconbg-twitter-circle{
+    width:55px;height:55px;
+    background-image: url(../img/icon-twitter-circle.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+.iconbg-instagram-circle{
+    width:55px;height:55px;
+    background-image: url(../img/icon-instagram-circle.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+

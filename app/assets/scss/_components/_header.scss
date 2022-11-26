@@ -1,0 +1,134 @@
+/*Header*/
+.fix-lg-br{
+	display: none;
+}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+  	color:#675D57;
+  	transition: .3s;
+  	z-index: 10;
+  	background: rgba(255, 255, 255, .85);
+  	&.-fix{position:absolute;top:0;left:0;width:100%;z-index:100;}
+   	.logo{
+   		img{
+	   		width: 100%;
+		  	height: 100%;
+		  	max-height: 45px;
+		  	transition: .3s;
+	   	}
+   	}
+
+   	.main__nav{
+   		position: inherit;
+   		background: transparent;
+   		.el-menu{
+   			&> li {
+			    min-width: 116px;
+    			width: auto;
+			    &:first-child>a>span{
+			    	&:before {
+				    	content: '';
+					    position: absolute;
+					    left: -1px!important;
+					    background: #e2dfdc;
+					    top: 14px!important;
+					    width: 2px!important;
+					    height: calc( 100% - 28px)!important;
+			    	}
+			    }
+			   	> a {
+				    padding: 18px 15px;
+				}
+			    > a:after span{
+			    	content: '';
+				    position: absolute;
+				    right: -1px!important;
+				    background: #e2dfdc;
+				    top: 14px!important;
+				    width: 2px!important;
+				    height: calc( 100% - 28px)!important;
+				}
+				&.menu-item-has-children{
+					>a:before{
+						content: '';
+					    position: absolute;
+					    bottom: 14px;
+					    left: calc(50% - 4px);
+					    width: 12px!important;
+					    height: 8px;
+					    background-image: url(../img/icon-arrow-down.svg);
+					    background-repeat: no-repeat;
+					    background-size: contain;
+					    pointer-events: none;
+					}
+				}
+
+			}
+   		}
+   	}
+   	&__phone{
+	    display: block;
+	    white-space: nowrap;
+	    font-size: 22px;
+	    color: #675d57;
+	    letter-spacing: 0.07em;
+	    font-family: 'Serif';
+	    line-height: normal;
+	    i{
+	    	margin-right: 8px;
+	    	&:before {
+			    width: 11px;
+			    height: 14px;
+			    -webkit-mask-image: url(../img/icon-phone.png);
+			    background-color: #3671a8;
+			}
+	    }
+
+
+	}
+
+	.mburger .icon-bar {
+	    background-color: #736963;
+	}
+
+   	&.is-sticky{
+	   	position: fixed;
+	   	background: #fff;
+		color: #000;
+		box-shadow: 0 0 10px #ccc;
+		.main__nav .el-menu > li > a {
+		    color: #000;
+		}
+
+   	}
+
+	@media ( max-width: 1399px ) {
+		.main__nav .el-menu > li {
+		    min-width: 100px;
+		    > a {
+			    padding: 18px 10px;
+			}
+		}
+
+	}
+	@media ( max-width: 1199px ) {
+		padding: 10px 0;
+	}
+	@media ( max-width: 991px ) {
+
+	}
+	@media ( max-width: 767px ) {
+
+	}
+	@media ( max-width: 575px ) {}
+
+	@media (min-width:1200px) and (max-width:1399px){
+		.fix-lg-br{
+			display: block;
+		}
+	}
+}
+

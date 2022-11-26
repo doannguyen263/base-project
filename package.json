@@ -1,0 +1,30 @@
+{
+  "name": "base-project",
+  "version": "1.0.0",
+  "description": "Cấu hình thư mục, file cho 1 dự án cơ bản",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doannguyen263/base-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doannguyen263/base-project/issues"
+  },
+  "homepage": "https://github.com/doannguyen263/base-project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "postcss": "^8.4.19",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "livereload": "^0.9.3"
+  }
+}

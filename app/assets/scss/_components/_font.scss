@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('NotoSansJP-Bold-Alphabetic.woff2') format('woff2'),
+        url('NotoSansJP-Bold-Alphabetic.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans JP';
+    src: url('NotoSansJP-Regular-Alphabetic.woff2') format('woff2'),
+        url('NotoSansJP-Regular-Alphabetic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'TenMincho';
+    src: url('../fonts/TenMincho/TenMincho-Regular-Alphabetic.woff2') format('woff2'),
+        url('../fonts/TenMincho/TenMincho-Regular-Alphabetic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'G_e12Daydream';
+    src: url('../fonts/G_e12Daydream/G_e12Daydream-Regular.woff2') format('woff2'),
+        url('../fonts/G_e12Daydream/G_e12Daydream-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
